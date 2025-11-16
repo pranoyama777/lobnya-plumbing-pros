@@ -18,10 +18,13 @@ const Index = () => {
       <Contact />
       
       {/* Footer */}
-      <footer className="bg-foreground text-background py-8">
+      <footer className="bg-card/50 backdrop-blur-xl border-t border-border/50 py-12">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-background/80">
+          <p className="text-xl text-muted-foreground">
             © 2024 Сантехнические услуги в Лобне. Все права защищены.
+          </p>
+          <p className="text-lg text-muted-foreground/60 mt-2">
+            Профессионально • Надежно • С гарантией
           </p>
         </div>
       </footer>
